@@ -11,6 +11,12 @@ import (
 )
 
 func main() {
+	if len(os.Args) == 1 {
+		fmt.Print("Usage:\n  gclone <uri>\n\n")
+		os.Exit(1)
+		return
+	}
+
 	var host, path string
 
 	uri := os.Args[1]

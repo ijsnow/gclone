@@ -5,7 +5,7 @@ Clone repos directly to where they belong in your Go workspace from anywhere.
 ## Installation
 
 ```bash
-go get https://github.com/ijsnow/gclone.git
+go get github.com/ijsnow/gclone
 ```
 
 ## Usage
