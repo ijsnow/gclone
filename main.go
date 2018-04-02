@@ -12,7 +12,7 @@ import (
 
 func main() {
 	if len(os.Args) == 1 {
-		fmt.Print("Usage:\n  gclone <uri>\n\n")
+		fmt.Print("Usage:\n  gclone <uri>\n")
 		os.Exit(1)
 		return
 	}
