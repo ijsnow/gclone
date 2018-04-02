@@ -12,10 +12,7 @@ go get https://github.com/ijsnow/gclone.git
 
 ```bash
 gclone https://github.com/gorilla/mux.git
-# Or
-gclone git@github.com:gorilla/mux.git
-
-# Will be cloned
+# Will be cloned to $GOPATH/src/github.com/gorilla/mux
 ```
 
 ## Caveats
